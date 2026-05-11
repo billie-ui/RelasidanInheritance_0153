@@ -35,3 +35,18 @@ public:
     void tambahPasien(pasien*);
     void cetakPasien();
 };
+
+void pasien::tambahDokter(dokter* pDokter) {
+    daftar_dokter.push_back(pDokter);
+}
+
+void pasien::cetakdokter() {
+    cout << "Daftar Dokter yang menangani pasien \"" 
+         << this->nama << "\":\n";
+
+    for (auto& a : daftar_dokter) { 
+        // auto digunakan dalam perulangan for untuk secara otomatis 
+        // menentukan tipe data dari elemen yang diiterasi
+        cout << a->nama << "\n";
+    }
+}
