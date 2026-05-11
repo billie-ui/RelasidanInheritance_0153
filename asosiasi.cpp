@@ -80,5 +80,8 @@ int main() {
 
     varDokter1->cetakPasien();
     varDokter2->cetakPasien();
+    
+    varPasien1->cetakdokter();
+    varPasien2->cetakdokter();
 
 }
