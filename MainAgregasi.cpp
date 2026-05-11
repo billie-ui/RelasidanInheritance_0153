@@ -13,14 +13,14 @@ int main() {
 
     varIbu -> tambahAnak(varAnak1);
     varIbu -> tambahAnak(varAnak2);
-    varibu2 -> tambahAnak(varAnak3);
-    varibu2 -> tambahAnak(varAnak1);
+    varIbu2 -> tambahAnak(varAnak3);
+    varIbu2 -> tambahAnak(varAnak1);
 
     varIbu ->cetakAnak();
     varIbu ->cetakAnak();
 
     delete varIbu;
-    delete varibu2;
+    delete varIbu2;
     delete varAnak1;
     delete varAnak2;
     delete varAnak3;
