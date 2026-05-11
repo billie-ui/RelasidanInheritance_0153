@@ -49,4 +49,6 @@ void pasien::cetakdokter() {
         // menentukan tipe data dari elemen yang diiterasi
         cout << a->nama << "\n";
     }
+    cout << endl;
 }
+
